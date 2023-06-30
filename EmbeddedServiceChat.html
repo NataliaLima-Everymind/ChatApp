@@ -22,6 +22,15 @@
 	};
 </script>
 <script type='text/javascript' src='https://rpccrm--dev.sandbox.my.site.com/ESWTesteChatAplicativo1688128846212/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
+return <BrowserRouter>
+<div className="App">
+<Routes>
+    <Route exact path="/" element={ <Home /> } />
+    <Route exact path="startcreating" element={ <Start /> } />
+    <Route exact path="aboutus" element={ <About /> } />
+    {/* <Route path="signup" element={ <SignUpModel /> } /> */}
+</Routes> 
+</div>
+</BrowserRouter>;
   </body>
 </html>
